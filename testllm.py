@@ -75,7 +75,8 @@ def get_llm_responses(terrain_info, relative_position):
     # Questions and templates
     localization_answer = {}
     coverage_answer = {}
-    
+
+    #used chatgpt to make variations
     localization_template_variations = [
         "The {terrain_type} is predominantly located in the {predominant_region} of the image.",
         "You’ll find the {terrain_type} primarily in the {predominant_region} section of the image.",
