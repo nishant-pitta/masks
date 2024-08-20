@@ -125,7 +125,7 @@ def get_llm_responses(terrain_info, relative_position):
     return localization_answer, coverage_answer, relative_location_answer
 
 # Initialize 
-HUGGINGFACEHUB_API_TOKEN = "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"
+HUGGINGFACEHUB_API_TOKEN = "{INSERT KEY}"
 
 llm = HuggingFaceEndpoint(
     repo_id="mistralai/Mistral-7B-Instruct-v0.2",
