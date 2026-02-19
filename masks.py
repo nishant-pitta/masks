@@ -7,7 +7,7 @@ import numpy as np
 from helper import divide_into_regions, calculate_coverage, calculate_centroid, relative_position
 
 # define paths
-base_path = '/Users/srinivas/Downloads/ai4mars-dataset-merged-0.1'
+base_path = '/Users/user/Downloads/ai4mars-dataset-merged-0.1'
 labels_path = os.path.join(base_path, 'msl', 'labels', 'train')  # Change to 'test' for test set
 images_path = os.path.join(base_path, 'msl', 'images')
 
