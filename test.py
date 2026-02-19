@@ -48,8 +48,8 @@ def analyze_relative_localization(mask_path1, mask_path2):
     return relative_pos
 
 # Example
-mask_path_sand = '/Users/srinivas/Downloads/ai4mars-dataset-merged-0.1/masks/NLB_453957460EDR_F0321020NCAM00285M1_mask.png'
-mask_path_rock = '/Users/srinivas/Downloads/ai4mars-dataset-merged-0.1/masks/NLB_421444916EDR_F0060000NCAM00364M1_mask.png'
+mask_path_sand = '/Users/user/Downloads/ai4mars-dataset-merged-0.1/masks/NLB_453957460EDR_F0321020NCAM00285M1_mask.png'
+mask_path_rock = '/Users/user/Downloads/ai4mars-dataset-merged-0.1/masks/NLB_421444916EDR_F0060000NCAM00364M1_mask.png'
 
 terrain_info_sand = analyze_terrain(mask_path_sand, 'sand')
 terrain_info_rock = analyze_terrain(mask_path_rock, 'rock')
